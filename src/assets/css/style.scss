@@ -1,0 +1,12 @@
+/* Import Mixins */
+@import 'mixins/mixins';
+
+/* Import Partials Files */
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/global';
+@import 'base/typography';
+
+/* Import Components Files */
+@import 'components/input';
+@import 'components/button';

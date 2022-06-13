@@ -1,0 +1,12 @@
+/* Vendor Prefix */
+@mixin vendor-prefix($propertyName, $value) {
+	@each $vendor in ('-webkit-', '-moz-', '-ms-', '') {
+		#{$vendor}#{$propertyName}: #{$value};
+	}
+}
+/* List Style None */
+@mixin listStyleNone {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Finance Budget",
+            "description": "Finance Budget",
+            "type": "DBU",
+            "period": "MONTHLY",
+            "startDate" : "March 2022",
+            "endDate" : "June 2022",
+            "scope" : {
+                "type": "Global",
+                "number": ""
+            },
+            "budgetStatus": {
+                "type": "Ok",
+                "description": "Cost is projected to be within the budget when the period ends on 04/01/2022 00:00:00 UTC, with a forecasted cost of 11085.1 DBUs.",
+                "progress": "9%",
+                "cost": "4648.58 DBUs",
+                "budget": "50000 DBUs"
+            }
+        }, {
+            "id": 2,
+            "name": "testBudget",
+            "description": "",
+            "type": "DBU",
+            "period": "MONTHLY",
+            "startDate" : "March 2022",
+            "endDate" : "June 2022",
+            "scope" : {
+                "type": "Workspaces",
+                "number": "4730_PG"
+            },
+            "budgetStatus": {
+                "type": "Exceeded",
+                "description": "Cost has already exceeded the budget.",
+                "progress": "92%",
+                "cost": "1423.89 DBUs",
+                "budget": "200 DBUs"
+            }
+        }, {
+            "id": 3,
+            "name": "Analytics Budget",
+            "description": "",
+            "type": "DBU",
+            "period": "MONTHLY",
+            "startDate" : "February 2022",
+            "endDate" : "May 2022",
+            "scope" : {
+                "type": "Global",
+                "number": ""
+            },
+            "budgetStatus": {
+                "type": "At Risk",
+                "description": "Cost is projected to be within the budget when the period ends on 04/01/2022 00:00:00 UTC, with a forecasted cost of 11085.1 DBUs.",
+                "progress": "93%",
+                "cost": "1423.89 DBUs",
+                "budget": "200 DBUs"
+            }
+        }
+    ]
+}

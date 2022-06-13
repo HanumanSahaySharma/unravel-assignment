@@ -1,0 +1,13 @@
+* {
+	@include vendor-prefix('box-sizing', 'border-box');
+}
+a {
+	@include vendor-prefix('transition', 'all 0.3s');
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+	display: block;
+	border: 0;
+}

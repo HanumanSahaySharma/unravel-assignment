@@ -1,0 +1,54 @@
+.container {
+    max-width: 1440px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $default-white;
+    color: $default-dark;
+    font-family: $fontStack;
+    font-size: $fontSize;
+    line-height: $fontLineHeight;
+}
+#main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+b, strong {
+    font-weight: 500;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid $default-borderColor;
+    td, th {
+        background-color: $default-white;
+        border-bottom: 1px solid $default-borderColor;
+        padding: 5px 10px;
+        min-width: 120px;
+        vertical-align: top;
+        &:nth-child(1),
+        &:nth-child(2) {
+            min-width: 130px;
+        }
+        &:nth-child(8) {
+            min-width: 150px;
+        }
+        &:nth-child(9) {
+            min-width: 150px;
+        }
+        &:nth-child(10),
+        &:nth-child(11) {
+            max-width: 100px;
+            min-width: auto;
+            padding-right: 0;
+            padding-left: 0
+        }
+    }
+    th {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        background-color: #eaeef4;
+    }
+}

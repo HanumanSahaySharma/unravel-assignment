@@ -1,0 +1,12 @@
+.form-control {
+    padding: 6px 10px;
+    display: block;
+    width: 100%;
+    color: $default-dark;
+    font-size: $fontSize;
+    font-family: $fontStack;
+    line-height: $fontLineHeight;
+    background-color: $default-white;
+    border: 1px solid $default-borderColor;
+    @include vendor-prefix('border-radius', '4px');
+}
